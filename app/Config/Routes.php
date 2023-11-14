@@ -9,4 +9,4 @@ $routes->get('/', 'login::index');
 $routes->get('/produtos', 'ProdutoController::index');
 $routes->get('/departamento', 'DepartamentoController::index');
 $routes->get('/compras', 'ComprasController::index');
-$routes->post('');
+//$routes->post('');

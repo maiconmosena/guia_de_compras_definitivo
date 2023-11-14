@@ -1,5 +1,6 @@
 <!--precisa acrescentar linguagem pt-br
-    verificar se este é necessario-->
+    verificar se este é necessario
+    - -->
     
 <?php if(session()->getFlashdata('error')): ?>
     <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>

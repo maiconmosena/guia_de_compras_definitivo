@@ -14,13 +14,13 @@
     
    <div id="inteface">
         <table id="tabela">
-            <tr><td class="ce"><a href="#"></a>Cozinha</td></tr>
-            <tr><td class="ce"><a href="#"></a>WC</td></tr>
-            <tr><td class="ce"><a href="#"></a>Lavaderia</td></tr>
-            <tr><td class="cd"><a href="#"></a>Listar</td></tr>
-            <tr><td class="ce"><a href="#"></a>Geladeira</td></tr>
-            <tr><td class="cd"><a href="#"></a>Comprar</td></tr>
-            <tr><td class="ce"><a href="#"></a>Estante</td></tr>            
+            <tr><td class="ce"><a href="#" onclick=""></a>Cozinha</td></tr>
+            <tr><td class="ce"><a href="#" onclick=""></a>WC</td></tr>
+            <tr><td class="ce"><a href="#" onclick=""></a>Lavaderia</td></tr>
+            <tr><td class="cd"><a href="#" onclick=""></a>Listar</td></tr>
+            <tr><td class="ce"><a href="#" onclick=""></a>Geladeira</td></tr>
+            <tr><td class="cd"><a href="#" onclick=""></a>Comprar</td></tr>
+            <tr><td class="ce"><a href="#" onclick=""></a>Estante</td></tr>            
         </table>
    </div>
 </body>
