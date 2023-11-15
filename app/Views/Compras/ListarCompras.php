@@ -1,5 +1,5 @@
-<!--tabela listar as compras do departamento
-    - usar metodo do listar
+<!--tabela deve listar as compras do departamento,
+    - usar metodo do listar ou listar produtos
     - fazer verificação-->
 
 <?php foreach ($compras as $compras) : ?>

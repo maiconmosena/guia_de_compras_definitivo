@@ -6,11 +6,9 @@
     <title>Interface</title>
 </head>
 <body>
-    <!-- - todos os meus departamentos devem listar os produtos de si por um foreach
-        - direcionar as rotas de cada (ob: add produtos verificar necessidade)
+    <!-- - direcionar as rotas de cada (ob: add produtos verificar necessidade)
     
-        e como ele faz para listar o produtos em cada departamento?
-        - eu preciso criar um arquivo para cada ou apenas o foreach-->
+        e como ele faz para listar o produtos em cada departamento? apenas o foreach-->
     
    <div id="inteface">
         <table id="tabela">
