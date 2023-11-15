@@ -7,6 +7,9 @@ use CodeIgniter\Entity\Entity;
 class Departamento extends Entity
 {
     protected $datamap = [];
+    protected $atributes = [
+        
+    ];
     protected $dates   = ['created_at', 'updated_at', 'deleted_at'];
     protected $casts   = [];
 }

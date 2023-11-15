@@ -1,4 +1,4 @@
-<!--Listar produtos -->
+<!--Listar produtos: "pode melhorar este aqui"-->
 
 <table>
 <tr>

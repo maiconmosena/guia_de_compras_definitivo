@@ -1,4 +1,5 @@
-<!--listar de departamentos -->
+<!--listar de departamentos
+  - mudar para foreach do listar-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -11,7 +12,7 @@
     <h1>Departamentos Cadastrados</h1>
 
     <?php
-
+    // fazer verificação if/else, ajustar o forms
     foreach ($departamento as $departamento) :
       echo "Nome: " . $event->name;
       echo "<br>";

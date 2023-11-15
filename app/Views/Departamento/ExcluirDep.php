@@ -13,6 +13,7 @@
     <form action="/#" method="post">
         <label for="departamento">Departamento a ser excluído:</label>
         <input type="text" id="departamento" name="departamento" required>
+         <!--fazer verificação if/else-->
 
         <button type="button" value="excluir">Excluir</button>
     </form>

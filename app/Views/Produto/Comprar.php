@@ -43,6 +43,9 @@
         <label for="number">Quantidade:</label>
         <input type="number" name="number" id="number"><br>
 
+        <label for="text">Estabelecimento:</label>
+        <input type="text" name="local" id="local"><br>
+
         <label for="time">Data validade</label>
         <input type="datetime" name="date" id="date"><br>
 

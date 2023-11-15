@@ -8,9 +8,7 @@
     <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
 <?php endif;?>
 
-  <!--formulário de login do usuario
-    nos action add o caminho das rotas
-    o method pode ser getPost?-->
+  <!--formulário de login do usuário-->
 
 <form action="#" method="post" target="_self">
   <label>Nome:</label><br>

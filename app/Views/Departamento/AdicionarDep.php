@@ -16,6 +16,7 @@
 
         <label for="descricao">Descrição:</label>
         <textarea id="descripcion" name="descripcion" rows="" columns=""></textarea><br>
+        <!--fazer verificação if/else-->
 
         <button type="submit" value="adicionar">Adicionar</button>
     </form>
