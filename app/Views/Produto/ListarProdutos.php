@@ -1,4 +1,4 @@
-<!--Lista de produtos por departamento-->
+<!--Lista de produtos e por departamento-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -15,7 +15,7 @@
         <input type="radio" id="nome_departamento" name="nome_departamento">
 
         <table>
-            <?php foreach ($produtos as $produto) :?>  
+            <?php foreach ($produtos as $produto) : ?>  
         <tr>
             <td><?= $produto->nome ?></td>  
             <td><?= $produto->departamento ?></td>

@@ -1,4 +1,4 @@
-<!--Formulario listagem de departamentos-->
+<!--Formulário cadastro de departamentos-->
 
 <!DOCTYPE html>
 <html lang="pt-br">

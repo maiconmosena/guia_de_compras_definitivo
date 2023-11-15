@@ -1,4 +1,4 @@
-<!--tabela listar compras , definindo o local
+<!--tabela listar as compras do departamento
     - usar metodo do listar
     - fazer verificação-->
 
