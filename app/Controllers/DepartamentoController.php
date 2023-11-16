@@ -24,5 +24,16 @@ class DepartamentoController extends BaseController
          echo view('departamento/listar', $data);
     }
 
+    public function create(){
+
+    }
+
+    public function update(){
+
+    }
+
+    public function delete(){
+        
+    }
     
 }

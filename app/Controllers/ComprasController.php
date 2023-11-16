@@ -35,6 +35,14 @@ class ComprasController extends BaseController
         return redirect('/');      
     }
 
+    public function create(){
+
+    }
+
+    public function update(){
+        
+    }
+
     public function delete()
     {
         $id = session('id');

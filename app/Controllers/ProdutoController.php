@@ -26,14 +26,7 @@ class ProdutoController extends BaseController
          echo view('produtos/listar', $data);
     }
 
-    public function delCompras(){
-        
-        $id = session('id');
-
-        $this->produtoService->selfDelete($id);
-        return redirect()->to('/delCompras');
-    }
-
+    
     public function listar($produtoArray)
     {
         $produto = new Produto();
@@ -48,6 +41,10 @@ class ProdutoController extends BaseController
         $produto->descricao = $produtoArray['descricao'];
 
         session()->get("produtos")->result_array();      
+    }
+
+    public function create(){
+        
     }
 
     public function update(){
@@ -68,4 +65,13 @@ class ProdutoController extends BaseController
             return view('/produtos/comprar', $data);
         } 
     }
+
+    public function deletarCompras(){
+        
+        $id = session('id');
+
+        $this->produtoService->selfDelete($id);
+        return redirect()->to('/delCompras');
+    }
+
 }
