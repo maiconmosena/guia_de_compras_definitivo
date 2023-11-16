@@ -8,9 +8,7 @@
     <title>Interface</title>
 </head>
 <body>
-    <!-- - direcionar as rotas de cada (ob: add produtos verificar necessidade)
-    
-        e como ele faz para listar o produtos em cada departamento? apenas o foreach-->
+    <!--direcionar as rotas -->
     
    <div id="inteface">
         <table id="tabela">

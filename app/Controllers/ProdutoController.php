@@ -26,25 +26,28 @@ class ProdutoController extends BaseController
          echo view('produtos/listar', $data);
     }
 
-    public function comprar(){
+    public function delCompras(){
         
+        $id = session('id');
+
+        $this->produtoService->selfDelete($id);
+        return redirect()->to('/delCompras');
     }
 
     public function listar($produtoArray)
     {
         $produto = new Produto();
 
-        $produto->nome = $produtoArray;
-        $produto->departamento = $produtoArray;
-        $produto->tipo = $produtoArray;
-        $produto->quantidade = $produtoArray;
-        $produto->valor = $produtoArray;
-        $produto->data_validade = $produtoArray;
-        $produto->data_compra = $produtoArray;
-        $produto->descricao = $produtoArray;
+        $produto->nome = $produtoArray['name'];
+        $produto->departamento = $produtoArray['departamento'];
+        $produto->tipo = $produtoArray['tipo'];
+        $produto->quantidade = $produtoArray['quantidade'];
+        $produto->valor = $produtoArray['valor'];
+        $produto->data_validade = $produtoArray['data_validade'];
+        $produto->data_compra = $produtoArray['data_compra'];
+        $produto->descricao = $produtoArray['descricao'];
 
-        return $this->db->get("produtos")->result_array();   
-        
+        session()->get("produtos")->result_array();      
     }
 
     public function update(){

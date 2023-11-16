@@ -1,5 +1,4 @@
-<!--listar de departamentos
-  - mudar para foreach do listar-->
+<!--lista de departamentos -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -13,15 +12,11 @@
 
     <?php
     foreach ($departamento as $departamento) :
-      echo "Nome: " . $event->name;
+      echo "Nome: " . $nome_dep->name;
       echo "<br>";
-      echo "Local: " . $event->local;
+      echo "Descricao: " . $descricao->descricao;
       echo "<br>";
-      echo "Data/Hora: " . timestamp2br($event->datetime);
-      echo "<br>";
-      echo "Descrição: " . $event->description;
-      echo "<hr>";
-  endforeach ?>
+    endforeach ?>
 </body>
       <button type="submit"><a href="/departamento/adicionarDep">Adicionar</a></button>
       <button type="submit"><a href="/departamento/excluirDep">Excluir</a></button>

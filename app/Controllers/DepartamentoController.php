@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Services\DepartamentoService;
 use App\Controllers\BaseController;
 
 class DepartamentoController extends BaseController
@@ -22,4 +23,6 @@ class DepartamentoController extends BaseController
  
          echo view('departamento/listar', $data);
     }
+
+    
 }
