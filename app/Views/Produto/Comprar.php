@@ -55,9 +55,7 @@
         <button type="submit">Finalizar Compra</button>
         <!--fazer uma verificação para saber se deseja finalizar compra --> 
 </body>
-
-<a href="/#"></a> <!--direcionar caminho-->
-
+    <a href="/posts/interface">Voltar</a>
 </html>
 
 

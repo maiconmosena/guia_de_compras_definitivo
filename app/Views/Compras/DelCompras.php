@@ -10,7 +10,7 @@
 <body>
     <h1>Excluir Compras</h1><br>
 
-    <form action="/#" method="post">
+    <form action="/compras/delCompras" method="post">
         <label for="compra">Compra a ser excluída:</label>
         <input type="radio" id="compra" name="compra">
         <section>
@@ -27,6 +27,6 @@
         <button type="button" value="excluir">Excluir</button>
     </form>
 </body>
+    <a href="/posts/interface">Voltar</a>
 </html>
 
-<a href="/#">Voltar</a>

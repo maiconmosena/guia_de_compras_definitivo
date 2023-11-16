@@ -2,9 +2,10 @@
 
 namespace App\Services;
 
+use App\Entities\Produto;
 use App\Models\ProdutoModel;
 
-class ProdutoServices {
+class ProdutoService {
 
     protected $produtoModel;
 
@@ -13,14 +14,10 @@ class ProdutoServices {
         $this->produtoModel = new ProdutoModel();
     }
 
-    public function getProdutos(){
-        return $this->produtoModel->findAll();    
+    public function getProdutos($id){
+        return $this->produtoModel->findAll($id);    
     } 
     
-    public function adicionar() {
-        return $this->produtoModel->findAll();
-    }
-
     public function listar() {
         return $this->produtoModel->findAll();    
     }
@@ -29,9 +26,15 @@ class ProdutoServices {
         return $this->produtoModel->findAll();
     }
 
-    public function cadastrar() {
-        return $this->produtoModel->findAll();
+    public function tryUpdate(Produto $produto)
+    {
+        try {
+            if($produto->hasChanged()){
+                $this->produtoModel->trySaveUser($produto);
+            }
+        } catch (\Exception $e) {
+            die("Erro ao realizar o processo.");
+        }
     }
-    
-    //rever os metodos
+
 }

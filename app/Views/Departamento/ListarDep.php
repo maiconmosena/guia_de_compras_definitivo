@@ -12,7 +12,6 @@
     <h1>Departamentos Cadastrados</h1>
 
     <?php
-    // fazer verificação if/else, ajustar o forms
     foreach ($departamento as $departamento) :
       echo "Nome: " . $event->name;
       echo "<br>";
@@ -24,8 +23,8 @@
       echo "<hr>";
   endforeach ?>
 </body>
-      <button type="submit"><a href="/#">Adicionar</a></button> <!--definir caminho por rota, excluir ou adicionar, ambos retorna para-->
-      <button type="submit"><a href="/#">Excluir</a></button>
-      <button type="submit"><a href="/#">Voltar</a></button> 
+      <button type="submit"><a href="/departamento/adicionarDep">Adicionar</a></button>
+      <button type="submit"><a href="/departamento/excluirDep">Excluir</a></button>
+      <button type="submit"><a href="/posts/interface">Voltar</a></button> 
 </html>
 

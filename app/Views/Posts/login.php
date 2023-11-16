@@ -10,7 +10,7 @@
 
   <!--formulário de login do usuário-->
 
-<form action="#" method="post" target="_self">
+<form action="/home/altenticar" method="post" target="_self">
   <label>Nome:</label><br>
   <input type="text" id="senha" name="senha" value="..." required ><br>
   <label>Senha:</label><br>
@@ -19,4 +19,4 @@
   <input type="submit" value="Login">
 </form> 
 
-<a href="/#"></a><!--direcionar para interface, aguardar definição para enxugar codigo ou base url-->
+<a href="/interface">Login</a>

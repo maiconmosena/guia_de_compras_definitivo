@@ -1,4 +1,4 @@
-<!--Formulário cadastro de departamentos-->
+<!--Formulario cadastro de departamentos-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -10,12 +10,12 @@
 <body>
         <h1>Adicionar Departamento</h1><br>
     
-    <form action="#" method="post">
+    <form action="/departamento/adicionarDep" method="post">
         <label for="name">Nome do Departamento:</label>
         <input type="text" id="name" name="name"><br>
 
         <label for="descricao">Descrição:</label>
-        <textarea id="descripcion" name="descripcion" rows="" columns=""></textarea><br>
+        <textarea id="descricao" name="descricao"></textarea><br>
         <!--fazer verificação if/else-->
 
         <button type="submit" value="adicionar">Adicionar</button>
@@ -23,4 +23,4 @@
 </body>
 </html>
 
-<a href="/#">Voltar</a>
+<a href="/posts/interface">Voltar</a>

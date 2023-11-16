@@ -10,7 +10,7 @@
 <body>
     <h1>Excluir Departamento</h1><br>
 
-    <form action="/#" method="post">
+    <form action="/departamento/excluirDep" method="post">
         <label for="departamento">Departamento a ser excluído:</label>
         <input type="text" id="departamento" name="departamento" required>
          <!--fazer verificação if/else-->
@@ -20,4 +20,4 @@
 </body>
 </html>
 
-<a href="/#">Voltar</a>
+<a href="/posts/interface">Voltar</a>

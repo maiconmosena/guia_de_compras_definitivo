@@ -7,17 +7,17 @@ use App\Controllers\BaseController;
 class DepartamentoController extends BaseController
 {
     
-    protected $departamentoServices;
+    protected $departamentoService;
 
     public function __construct()
     {
-        $this->departamentoServices = new DepartamentoServices();          
+        $this->departamentoService = new DepartamentoService();          
     }
     
     public function index()
     {
         $data = [ 
-            'departamento' =>  $this->departamentoServices->getDepartamento(),
+            'departamento' =>  $this->departamentoService->getDepartamento(),
          ];
  
          echo view('departamento/listar', $data);
